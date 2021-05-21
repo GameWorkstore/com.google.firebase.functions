@@ -1,25 +1,22 @@
 {
-  "name": "com.google.external-dependency-manager",
-  "version": "1.2.165",
-  "displayName": "External Dependency Manager for Unity",
+  "name": "com.google.firebase.functions",
+  "version": "7.2.0",
+  "displayName": "Cloud Functions for Firebase",
   "keywords": [
     "Google",
-    "Android",
-    "Gradle",
-    "Cocoapods",
-    "Dependency",
-    "Unity Package Manager",
-    "Unity",
-    "vh-name:play-services-resolver",
-    "vh-name:unity-jar-resolver",
-    "vh-name:external-dependency-manager",
-    "vh-name:External Dependency Manager for Unity"
+    "Firebase",
+    "Functions",
+    "Cloud",
+    "vh-name:FirebaseFunctions",
+    "vh-name:Cloud Functions for Firebase"
   ],
   "author": {
     "name": "Google LLC",
-    "url": "https://github.com/googlesamples/unity-jar-resolver"
+    "url": "https://firebase.google.com/docs/functions"
   },
-  "description": "External Dependency Manager for Unity (EDM4U) can be used by any Unity plugin that requires Android specific libraries (e.g. AARs), iOS CocoaPods, version management of transitive dependencies, and/or management of Unity Package Manager registries.",
+  "description": "Run your mobile backend code without managing servers.\n\nWith Cloud Functions, you can write and deploy code to our servers that automatically responds (i.e. executes) to events in your game.\n\nThis way, your game logic is fully insulated from the client so you can be sure its functions are private and can't be reverse engineered. Cloud Functions also automatically scales up computing resources to match the usage patterns of your game.",
   "unity": "2017.1",
-  "dependencies": {}
+  "dependencies": {
+    "com.google.firebase.app": "7.2.0"
+  }
 }
